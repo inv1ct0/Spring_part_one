@@ -1,0 +1,62 @@
+#btn1, #btn2 {
+    -fx-padding: 6 22 6 22;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,1) , 5, 0.0 , 0 , 1 );
+}
+
+#btn1:hover, #btn2:hover{
+    -fx-background-color: #3a3a3a;
+}
+
+#btn1:pressed, #btn1:default:hover:pressed, #btn2:pressed, #btn2:default:hover:pressed
+{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-text-fill: #2d2d2d;
+}
+
+#chatArea, #clientsList {
+    -fx-background-image: url("../background.jpg");
+    -fx-padding: 3 72 3 0;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial Narrow";
+    -fx-fill: #818181;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-highlight-fill: linear-gradient(#61a2b1, #2A5058);
+    -fx-highlight-text-fill: white;
+    -fx-background-color: #000000;
+}
+
+#chatArea .scroll-bar, #clientsList .scroll-bar{
+    -fx-background-image: url("../background.jpg");
+}
+
+#chatArea .content, #clientsList .content {
+    -fx-border-style: solid;
+    -fx-border-radius: 3;
+    -fx-border-width: 2;
+    -fx-border-color: #2d2d2d;
+    -fx-background-image: url("../background.jpg");
+}
+
+.text-area .text {
+    -fx-effect: dropshadow(gaussian,rgba(97,162,177,1),15,0.5,0,0);
+}
+
+#textField {
+    -fx-border-style: solid;
+    -fx-border-radius: 3;
+    -fx-border-width: 2;
+    -fx-border-color: #2d2d2d;
+    -fx-background-image: url("../background.jpg");
+}
+.promptText{
+
+}
+
+.userLogin {
+}
