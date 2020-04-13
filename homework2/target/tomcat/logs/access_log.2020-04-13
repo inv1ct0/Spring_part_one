@@ -1,0 +1,8 @@
+127.0.0.1 - - [13/Apr/2020:13:43:22 +0300] "GET /app/product/find_form?title=Lemon HTTP/1.1" 302 - http-bio-8080-exec-1 148
+127.0.0.1 - - [13/Apr/2020:13:43:22 +0300] "GET /app/product HTTP/1.1" 200 471 http-bio-8080-exec-2 915
+127.0.0.1 - - [13/Apr/2020:13:43:27 +0300] "GET /app/product/form HTTP/1.1" 200 512 http-bio-8080-exec-3 41
+127.0.0.1 - - [13/Apr/2020:13:43:30 +0300] "GET /app/product/find_form?title=Lemon HTTP/1.1" 302 - http-bio-8080-exec-4 4
+127.0.0.1 - - [13/Apr/2020:13:43:30 +0300] "GET /app/product HTTP/1.1" 200 471 http-bio-8080-exec-5 10
+127.0.0.1 - - [13/Apr/2020:13:43:32 +0300] "GET /app/product/form HTTP/1.1" 200 512 http-bio-8080-exec-6 10
+127.0.0.1 - - [13/Apr/2020:13:43:34 +0300] "POST /app/product/form HTTP/1.1" 302 - http-bio-8080-exec-7 10
+127.0.0.1 - - [13/Apr/2020:13:43:34 +0300] "GET /app/product HTTP/1.1" 200 554 http-bio-8080-exec-8 9
